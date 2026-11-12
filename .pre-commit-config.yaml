@@ -1,0 +1,6 @@
+# 커밋 직전에 gitleaks로 비밀 값(액세스 키, 토큰 등)을 검사한다.
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.30.1
+    hooks:
+      - id: gitleaks

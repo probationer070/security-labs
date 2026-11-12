@@ -1,0 +1,16 @@
+# Python 가상환경
+venv/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# 비밀 값
+.env
+*.pem
+*key*.json
+
+# CloudTrail 로그
+ct-logs/
